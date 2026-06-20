@@ -9,7 +9,7 @@ if [ $(uname) != "Darwin" ]; then
 fi
 
 if [ "$(uname -m)" = "x86_64" ]; then
-    ARCH_SUFFIX="x86_64"
+    ARCH_SUFFIX="amd64"
 elif [ "$(uname -m)" = "arm64" ]; then
     ARCH_SUFFIX="arm64"
 else
